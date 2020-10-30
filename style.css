@@ -297,4 +297,19 @@ body {
   font-size: 18px;
   letter-spacing: 0.5px;
 }
+
+.goback {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  color: #317ec2;
+  border: 1px solid #317ec2;
+  text-align: center;
+  line-height: 65px;
+  font-size: 20px;
+  position: fixed;
+  right: 40px;
+  bottom: 50px;
+  z-index: 10;
+}
 /*# sourceMappingURL=style.css.map */
