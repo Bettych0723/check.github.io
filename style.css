@@ -316,5 +316,7 @@ body {
 .goback:hover {
   color: white;
   background-color: rgba(49, 126, 194, 0.4);
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 /*# sourceMappingURL=style.css.map */
