@@ -86,7 +86,13 @@ h1 {
         letter-spacing: 1px;
         line-height: 16px;
         font-size: 16px;
+
         
+    }
+}
+@media(max-width:375px){
+    .philosophy{
+        padding: 0 10px;
     }
 }
 
