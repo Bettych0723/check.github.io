@@ -398,6 +398,19 @@ body {
 }
 
 @media (max-width: 375px) {
+  .swiper-container {
+    display: none;
+    padding-bottom: 50px;
+  }
+  .swiper-container-mobile {
+    display: block;
+  }
+  .swiper-button-next, .swiper-button-prev {
+    top: 85%;
+  }
+}
+
+@media (max-width: 375px) {
   .icon_Group {
     padding: 15px;
   }
