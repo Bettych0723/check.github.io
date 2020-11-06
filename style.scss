@@ -79,26 +79,33 @@ h1 {
 .philosophy p {
     /* font-weight: 500; */
     letter-spacing: 2px;
-    line-height: 20px;
+    line-height: 35px;
     font-size: 20px;
+}
 
     @media(max-width:576px){
+    .philosophy p{
         letter-spacing: 1px;
-        line-height: 16px;
+        line-height: 15px;
         font-size: 16px;
-
-        
-    }
+    } 
 }
+
 @media(max-width:375px){
     .philosophy{
-        padding: 0 10px;
+    padding: 0 10px;
+}
+    .philosophy p{
+        line-height: 30px;
+        letter-spacing: 1px;
+        font-size: 16px;
     }
+
 }
 
 p {
     /* font-weight: 500; */
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     line-height: 20px;
     font-size: 20px;
     line-height: 35px;
