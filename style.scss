@@ -386,3 +386,19 @@ body {
 
 
 }
+@media(max-width:375px){
+.icon_Group {
+    padding: 15px;
+    }
+
+.Declare {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+.iconfb,
+.iconig,
+.iconmail{
+        width: 45px;
+        height: 45px;
+    }
+}
