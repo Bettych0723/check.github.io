@@ -153,11 +153,13 @@ h2 {
 
 .offline {
     width: 100%;
-    height: 1240px;
+    height: unset;
     background-color: #e4e54c;
     // background-image: url(./img/課程介紹10121_工作區域\ 1.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-bottom: 20px;
+
 }
 .offline p{
     text-align: justify;
@@ -188,6 +190,7 @@ body {
 
 .swiper-container {
     width: 100%;
+    height: 100%;
 }
 
 .swiper-slide {
@@ -340,8 +343,14 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+.swiper-container-mobile{
+    display:none;
 
-@media(max-width:576px){
+}
+
+
+
+@media(max-width:768px){
     .advantage {
         width: 100%;
         height: 100vh;
@@ -354,7 +363,26 @@ body {
         #banner{
             width: 100%;
             height: 85vh;
-        
-        
     }
+
+    .offline{
+        height: unset;
+        padding-bottom: 20px;
+    }
+        
+   .swiper-container{
+            display:none;
+            padding-bottom: 50px;
+
+            
+        }
+        .swiper-container-mobile{
+            display:block;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        top: 85%;
+    }
+
+
 }
