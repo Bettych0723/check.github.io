@@ -7,15 +7,19 @@
 
 html {
   scroll-behavior: smooth;
+  position: relative;
+  height: 100%;
 }
 
 body {
   margin: 0;
+  position: relative;
+  height: 100%;
 }
 
 #navbar {
   width: 100%;
-  height: 70px;
+  height: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -135,9 +139,13 @@ p {
   text-align: justify;
 }
 
+.swiper-container .swiper-container-movie .img {
+  width: 570px;
+  height: 275px;
+}
+
 .advantage {
   width: 100%;
-  height: 100vh;
   background-image: url(./img/優勢與特質-04.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -150,7 +158,7 @@ h2 {
 }
 
 .tittle {
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 30px;
 }
 
@@ -350,7 +358,7 @@ body {
 
 .fake-anchor {
   position: absolute;
-  top: -70px;
+  top: -50px;
   left: 0;
 }
 
@@ -424,5 +432,77 @@ body {
     width: 45px;
     height: 45px;
   }
+}
+
+.pic_box {
+  width: 570px;
+  background-color: white;
+}
+
+.showcase {
+  width: 570px;
+  height: 275px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.mask {
+  background-color: black;
+  opacity: 1;
+}
+
+.mask:hover {
+  opacity: 0.9;
+}
+
+.img1 {
+  background-image: url(./img/0810-01.png);
+}
+
+.img2 {
+  background-image: url(./img/0811-01.png);
+}
+
+.img3 {
+  background-image: url(./img/0812-01.png);
+}
+
+.img4 {
+  background-image: url(./img/0813-01.png);
+}
+
+.img5 {
+  background-image: url(./img/0814-01.png);
+}
+
+.play {
+  width: 80px;
+  height: 80px;
+  background-image: url(./img/播放icon-new-01.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: calc(50% - 40px);
+  top: calc(50% - 40px);
+}
+
+.swiper-container-movie {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide-movie {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active:root {
+  --swiper-theme-color:gray;
 }
 /*# sourceMappingURL=style.css.map */

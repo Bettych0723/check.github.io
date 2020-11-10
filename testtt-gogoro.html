@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/lightcase/2.5.0/css/lightcase-no-breakpoint.css">
+
+
+    <style>
+
+        *{
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0;
+        }
+
+        /* .showcase1 {
+            float: left;
+        }
+
+        .showcase2 {
+            width: 500px;
+            height: 300px;
+            float: left;
+        } */
+
+        .showcase3 {
+            width: 500px;
+            height: 300px;
+            float: left;
+            background-image: url(./img/高雄場-01.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            position: relative;
+        }
+
+        .play{
+            width: 100px;
+            height:100px;
+            background-image: url(./img/播放icon-01.png);
+            position: absolute;
+            left: calc(50% - 50px);
+            top: calc(50% - 50px);
+        }
+
+    </style>
+</head>
+
+<body>
+    <!-- <div class="showcase1" data-youtube-id="NeJb1dzIqEk" href="https://www.youtube.com/embed/MH8i-OeROy8"
+        data-rel="lightcase">
+        <img src="https://miro.medium.com/max/708/1*ifSob78knBe5rME04WHftg.png" alt="" class="img-responsive">
+    </div> -->
+ 
+    <!-- <div class="showcase2" style="background-image: url(./img/小資族-01.png);" data-youtube-id="NeJb1dzIqEk" href="https://www.youtube.com/embed/MH8i-OeROy8"
+        data-rel="lightcase">
+    </div> -->
+
+    <div class="showcase3">
+        <div class="play" onclick="" data-youtube-id="NeJb1dzIqEk" href="https://www.youtube.com/embed/eUumluzxmJ8" data-rel="lightcase"></div>
+    </div>
+    
+
+    <!-- <div class="showcase4" data-youtube-id="NeJb1dzIqEk" href="https://www.youtube.com/embed/MH8i-OeROy8"
+        data-rel="lightcase">
+        <img src="https://miro.medium.com/max/708/1*ifSob78knBe5rME04WHftg.png" alt="" class="img-responsive">
+    </div> -->
+
+    <!-- <div class="showcase"href="https://miro.medium.com/max/708/1*ifSob78knBe5rME04WHftg.png"data-rel="lightcase" title="我是標題">
+   
+    <div href="https://miro.medium.com/max/708/1*ifSob78knBe5rME04WHftg.png"data-rel="lightcase:myCollection"title=""> -->
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightcase/2.5.0/js/lightcase.min.js"></script>
+
+
+
+    <script>
+        $('div[data-rel=lightcase]').lightcase({
+            // 在lightcase初始化之後會立即呼叫
+            onInit: {
+                foo: function () {
+                    alert('Lightcase process is initialized');
+                }
+            },
+            // 在生成內容之前需要呼叫
+            onStart: {
+                bar: function () {
+                    alert('Lightcase process is started');
+                }
+            },
+            // 在顯示內容之前會被呼叫
+            onFinish: {
+                baz: function () {
+                    alert('Lightcase process is finished');
+                }
+            },
+            // 在中止lightcase的時候會被呼叫
+            onClose: {
+                qux: function () {
+                    alert('Lightcase closes now');
+                }
+            },
+            // 當lightcase進行清理時，會呼叫它
+            onCleanup: {
+                quux: function () {
+                    alert('Lightcase process is cleaned up');
+                }
+            }
+        });
+    </script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function ($) {
+            $('div[data-rel^=lightcase]').lightcase();
+        });
+    </script>
+
+</body>
+
+</html>
