@@ -118,6 +118,7 @@ p {
 }
 
 .about {
+  background-image: url("img/恰克pic.png");
   background-position: center;
 }
 
@@ -127,6 +128,7 @@ p {
   display: flex;
   width: 100%;
   height: 70vh;
+  background-image: url("img/foreign-exchange.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -146,7 +148,7 @@ p {
 
 .advantage {
   width: 100%;
-  background-image: url(./img/優勢與特質-04.jpg);
+  background-image: url("img/優勢與特質-04.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -194,12 +196,6 @@ html,
 body {
   position: relative;
   height: 100%;
-}
-
-.banner {
-  width: 100%;
-  background-color: white;
-  height: 50vh;
 }
 
 body {
@@ -250,6 +246,7 @@ body {
   display: flex;
   width: 100%;
   height: 80vh;
+  background-image: url("img/馬上報名-1012-01.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -283,7 +280,7 @@ body {
 .iconfb {
   width: 65px;
   height: 65px;
-  background-image: url(./img/fb-01.svg);
+  background-image: url("img/fb-01.svg");
   border: white 1.5px solid;
   border-radius: 50%;
   background-size: 85%;
@@ -300,7 +297,7 @@ body {
 .iconig {
   width: 65px;
   height: 65px;
-  background-image: url(./img/ig-01.svg);
+  background-image: url("img/ig-01.svg");
   border: white 1.5px solid;
   border-radius: 50%;
   background-size: 85%;
@@ -312,7 +309,7 @@ body {
 .iconmail {
   width: 65px;
   height: 65px;
-  background-image: url(./img/mail-01.svg);
+  background-image: url("img/mail-01.svg");
   border: white 1.5px solid;
   border-radius: 50%;
   background-size: 85%;
@@ -365,7 +362,7 @@ body {
 #banner {
   width: 100%;
   height: 950px;
-  background-image: url("./img/banner.jpg");
+  background-image: url("img/banner.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -379,7 +376,7 @@ body {
   .advantage {
     width: 100%;
     height: 100vh;
-    background-image: url(./img/優勢與特質-04.jpg);
+    background-image: url("img/優勢與特質-04.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -459,29 +456,29 @@ body {
 }
 
 .img1 {
-  background-image: url(./img/0810-01.png);
+  background-image: url("img/0810-01.png");
 }
 
 .img2 {
-  background-image: url(./img/0811-01.png);
+  background-image: url("img/0811-01.png");
 }
 
 .img3 {
-  background-image: url(./img/0812-01.png);
+  background-image: url("img/0812-01.png");
 }
 
 .img4 {
-  background-image: url(./img/0813-01.png);
+  background-image: url("img/0813-01.png");
 }
 
 .img5 {
-  background-image: url(./img/0814-01.png);
+  background-image: url("img/0814-01.png");
 }
 
 .play {
   width: 80px;
   height: 80px;
-  background-image: url(./img/播放icon-new-01.png);
+  background-image: url("img/播放icon-new-01.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
